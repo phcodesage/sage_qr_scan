@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.sage_qr_scan.MainActivity">
+    <item
+        android:id="@+id/action_flash"
+        android:icon="@android:drawable/ic_menu_gallery"
+        android:orderInCategory="100"
+        android:title="Flash"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_switch_camera"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:orderInCategory="101"
+        android:title="Switch Camera"
+        app:showAsAction="ifRoom" />
+</menu>
